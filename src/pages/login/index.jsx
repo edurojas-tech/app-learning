@@ -60,7 +60,7 @@ export default function LoginPage() {
               type="button"
             >
               <Link
-                to={"/"}
+                to={"/home"}
                 style={{
                   textDecoration: "none",
                   color: "#fff",

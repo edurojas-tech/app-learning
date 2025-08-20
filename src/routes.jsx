@@ -14,14 +14,14 @@ import HomePage from "./pages/home";
 
 const router = createBrowserRouter([
   {
-    path: "/welcome",
+    path: "/",
     element: (
       <LoginPage />
     ),
   },
 
   {
-    path: "/",
+    path: "/home",
     element: (
       <HomePage />
     ),
